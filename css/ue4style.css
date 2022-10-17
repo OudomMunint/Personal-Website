@@ -1,0 +1,261 @@
+body {
+  font-family: sans-serif;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  bottom: 0;
+  right: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+section {
+  height: 000px;
+  color: black;
+}
+
+section h1 {
+  padding-top: 00px;
+  text-align: center;
+  font-size: 80px;
+}
+
+/* Scroll opacity animation */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-family: Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.outer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  padding-top: 300px;
+  padding-bottom: 540px;
+}
+
+.booger {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0px 30px;
+  background-color: transparent;
+  opacity: 0.2;
+  transition: opacity 0.3s ease-in-out;
+  margin-bottom: 0px;
+  text-align: left;
+  color: white;
+}
+.booger.scrolled {
+  opacity: 1;
+}
+
+/*---------------------------------------
+    Navigation section              
+-----------------------------------------*/
+.custom-navbar {
+  margin-bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.custom-navbar .navbar-brand {
+  color: #333;
+  text-shadow: 1px 1px #fff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0px;
+}
+
+.custom-navbar .nav li a {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 40px;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+.custom-navbar .nav li a:hover {
+  background: transparent;
+  color: #e3ae57;
+}
+
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+.custom-navbar .nav li.active > a {
+  background-color: transparent;
+  color: #e3ae57;
+}
+
+.custom-navbar .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+
+.custom-navbar .navbar-toggle {
+  background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+  background: #e3ae57;
+  border-color: transparent;
+}
+/* mobile responsive */
+@media (min-width: 768px) {
+  .custom-navbar {
+    padding: 12px 0;
+    border-bottom: 0;
+    background: 0 0;
+  }
+  .custom-navbar.top-nav-collapse {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-navbar .navbar-brand {
+    line-height: 18px;
+  }
+
+  #home .home-thumb {
+    height: auto;
+    padding-top: 32px;
+    padding-bottom: 12px;
+  }
+
+  #home .container,
+  #about .container,
+  #experience .container,
+  #service .container,
+  #education .container,
+  #contact .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  #about .col-md-3,
+  #experience .col-md-6,
+  #education .col-md-6,
+  #contact .col-md-3 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .background-image {
+    position: relative;
+    min-height: 65vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-title {
+    padding-bottom: 12px;
+  }
+
+  footer {
+    padding: 40px 0;
+  }
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+/*---------------------------------------
+    GSAP Text on video scroll             
+-----------------------------------------*/
+
+.container-hero {
+  height: calc(3770px - 100vh);
+  top: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  visibility: none;
+}
+.container-hero div.h1 {
+  width: 70%;
+  font-size: 8rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  visibility: visible;
+}
+
+/*---------------------------------------
+  Button             
+-----------------------------------------*/
+
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5%; /* Place the button at the bottom of the page */
+  right: 46%; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(255, 255, 255); /* Set a background color */
+  color: rgb(0, 0, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(255, 0, 0); /* Add a dark-grey background on hover */
+}
+
+#myBtn2 {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5%; /* Place the button at the bottom of the page */
+  right: 39%; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(255, 255, 255); /* Set a background color */
+  color: rgb(0, 0, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(255, 0, 0); /* Add a dark-grey background on hover */
+}

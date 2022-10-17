@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+  flex: 25%;
+  padding: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 100%;
+    max-height: 300px;
+  }
+  #x h1 {
+    font-size: 30px;
+  }
+}
+
+/* ADDING FONT FACE */
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+a {
+  color: white;
+}
+body {
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #323232;
+  opacity: 0.96;
+  height: 2.7em;
+  width: 100%;
+  color: #fafafa;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-right: 3em;
+  padding-left: 3em;
+  display: inline;
+}
+
+li:hover {
+  color: #959595;
+}
+
+.xcontainer {
+  text-align: center;
+  color: #111111;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#x {
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+
+#xhello {
+  margin-top: 0.5em;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.watchcontainer {
+  text-align: center;
+  margin-top: 8em;
+}
+
+#imagination {
+  font-size: 55px;
+  font-weight: 900;
+}
+
+#shopwatch {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.macgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+
+/* ROW ONE */
+
+.imac {
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #fafafa;
+}
+
+#imac {
+  margin-top: 3em;
+}
+
+.iphone8 {
+  text-align: center;
+  background-color: #f9f0eb;
+}
+
+.headtext {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 1.25em;
+}
+
+.subheadtext {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#iphone8pic {
+  margin-top: 3em;
+  height: 600px;
+}
+
+#tv {
+  height: 469px;
+  padding-bottom: 50px;
+}
+
+/* ROW TWO */
+
+.iwatch {
+  text-align: center;
+  font-size: 20px;
+  background-color: #f9f0eb;
+}
+
+.fourk {
+  background-color: #020814;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* ROW THREE */
+
+.ipadpro {
+  text-align: center;
+}
+
+.topimg {
+  margin-top: 3em;
+}
+
+/* FIND BETTER IMAGE, STYLING */
+#sway {
+  width: 100%;
+}
+
+/* Abosolute Positioning for Sway Text, not best b/c no picture */
+
+.absoluted {
+  position: absolute;
+  top: 2463px;
+  left: 65%;
+  color: white;
+  font-size: 50px;
+}
+
+#holiday {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#watchsway {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+/* End */
+
+.credits {
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  grid-auto-rows: auto;
+  text-align: right;
+}

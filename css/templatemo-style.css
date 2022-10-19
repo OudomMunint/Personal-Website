@@ -186,11 +186,11 @@ a {
 }
 .cta:hover:before {
   width: 100%;
-  background: #ffffff;
+  background: #000000;
 }
 
 .cta span:hover {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .cta:hover svg {

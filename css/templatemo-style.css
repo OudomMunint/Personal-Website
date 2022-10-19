@@ -186,11 +186,11 @@ a {
 }
 .cta:hover:before {
   width: 100%;
-  background: #000000;
+  background: rgba(255, 171, 157, 0.5);
 }
 
 .cta span:hover {
-  color: rgb(255, 255, 255);
+  color: linear-gradient(to left, #3494e6, #ec6ead);
 }
 
 .cta:hover svg {

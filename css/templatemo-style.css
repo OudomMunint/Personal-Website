@@ -186,8 +186,13 @@ a {
 }
 .cta:hover:before {
   width: 100%;
-  background: #ffab9d;
+  background: #000000;
 }
+
+.cta span:hover {
+  color: black;
+}
+
 .cta:hover svg {
   transform: translateX(0);
 }

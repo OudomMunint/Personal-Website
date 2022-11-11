@@ -2,6 +2,7 @@
         My personal site/Portfolio
     </h1>
     <h2>
-        Visit at https://oudommunint.netlify.app/
+ <strong> Check it out at </strong> https://oudommunint.netlify.app/
     </h2>
     <img src="/Capture.png">
+   

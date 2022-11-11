@@ -4,5 +4,4 @@
     <h2>
  <strong> Check it out at </strong> https://oudommunint.netlify.app/
     </h2>
-    <img src="/Capture.png">
    

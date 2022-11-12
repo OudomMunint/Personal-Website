@@ -3,5 +3,6 @@
     </h1>
     <h2>
  <strong> Check it out at </strong> https://oudommunint.netlify.app/
+ <img src="/Capture.PNG"/>
     </h2>
    

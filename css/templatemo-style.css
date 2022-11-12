@@ -1,3 +1,9 @@
+/* canvas */
+#myCanvas {
+  width: 100vw;
+  height: 100vh;
+  overflow: visible;
+}
 /* inter font */
 html {
   scroll-behavior: smooth;

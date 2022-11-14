@@ -6,6 +6,6 @@
  <br>
  <br>
  <br>
- <img src="/Capture.PNG"/>
+ <img src="/images/Capture.PNG"/>
     </h2>
    

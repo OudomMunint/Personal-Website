@@ -4,7 +4,7 @@
   height: 100vh;
   overflow: visible;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #myCanvas {
     display: none;
   }
@@ -30,7 +30,6 @@ body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
-  overflow-x: hidden;
 }
 
 html,
@@ -824,7 +823,6 @@ article:hover {
   box-sizing: border-box;
   height: 500px;
   padding: 20px;
-  width: 460px;
 }
 
 .title {

@@ -4,6 +4,11 @@
   height: 100vh;
   overflow: visible;
 }
+@media only screen and (max-width: 600px) {
+  #myCanvas {
+    display: none;
+  }
+ }
 /* inter font */
 html {
   scroll-behavior: smooth;
@@ -810,6 +815,7 @@ article:hover {
   align-items: center;
   justify-content: center;
   padding-top: 50px;
+  padding-left: 15px;
 }
 
 .form {

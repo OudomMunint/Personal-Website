@@ -916,6 +916,13 @@ a:focus {
   padding-left: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  #home .col-md-6 {
+    display: none;
+  }
+}
+
+
 #home .home-img {
   background: url("../images/lockup-hero_new.jpg") no-repeat;
   background-size: cover;

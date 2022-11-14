@@ -63,7 +63,7 @@
     smoothScroll js
   -------------------------------------------------------------------------------*/
   
-    /* $(function() {
+     $(function() {
         $('.custom-navbar a, #home a').bind('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
@@ -71,7 +71,7 @@
             }, 1000);
             event.preventDefault();
         });
-    }); */
+    });
   
 
 
@@ -211,7 +211,7 @@
     Async typing section
   -------------------------------------------------------------------------------*/
 
-  /* async function init () {
+   async function init () {
     const node = document.querySelector("#type-text")
     
     await sleep(1000)
@@ -235,12 +235,12 @@
       await sleep(2000)
       await node.delete('Technology Enthusiast')
     }
-  } */
+  } 
   
   
   // Source code 🚩
   
-  /* const sleep = time => new Promise(resolve => setTimeout(resolve, time))
+   const sleep = time => new Promise(resolve => setTimeout(resolve, time))
   
   class TypeAsync extends HTMLSpanElement {
     get typeInterval () {
@@ -266,7 +266,7 @@
   customElements.define('type-async', TypeAsync, { extends: 'span' })
   
   
-  init() */
+  init()
 
 //Scrolling opacity
 function showIt() {

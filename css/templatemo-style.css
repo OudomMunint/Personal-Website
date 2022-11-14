@@ -343,6 +343,11 @@ icons
   height: 100vh;
   overflow: visible;
 }
+@media only screen and (max-width: 768px) {
+  #myCanvas {
+    display: none;
+  }
+ }
 /* inter font */
 html {
   scroll-behavior: smooth;
@@ -364,7 +369,6 @@ body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
-  overflow-x: hidden;
 }
 
 html,
@@ -1149,6 +1153,7 @@ article:hover {
   align-items: center;
   justify-content: center;
   padding-top: 50px;
+  padding-left: 15px;
 }
 
 .form {
@@ -1157,7 +1162,6 @@ article:hover {
   box-sizing: border-box;
   height: 500px;
   padding: 20px;
-  width: 460px;
 }
 
 .title {

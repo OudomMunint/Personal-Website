@@ -310,10 +310,10 @@ $('#return-to-top').click(function() {      // When arrow is clicked
   -------------------------------------------------------------------------------*/
 
           
-const DOT_RADIUS = 64; // Radius of the dots
-const SCALE = 1.1; // Scale of svgs
+const DOT_RADIUS = 24; // Radius of the dots
+const SCALE = 0.85; // Scale of svgs
 const MIN_SPEED = 0.0007;
-const MOUSE_SPEED = 0.05;
+const MOUSE_SPEED = 0.01;
 
 // TRANSLATE SVG ELEMENTS TO Path2D
 

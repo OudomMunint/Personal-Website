@@ -1188,9 +1188,9 @@
       </div>
     </section>
 
-    <!-- Contact Section
+    <!-- Contact Section -->
 
-    <section id="contact" class="parallax-section">
+   <!-- <section id="contact" class="parallax-section">
        <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-12">
@@ -1303,7 +1303,8 @@
           <div class="cut cut-short"></div>
           <label for="email" class="placeholder">Message</>
         </div>
-        <button type="text" class="submit">Submit</button>
+        <!-- <button type="text" class="submit">Submit</button> -->
+        <button type="Submit" onClick="return validateForm();" class="submit"> Submit </button>
         
         
       </div>
@@ -1319,6 +1320,16 @@
           <li><a href="https://codepen.io/Oudom-Munint" target="_blank" class="fa fa-codepen"></a></li>
         </ul> <br><br>
 </div>
+<!-- Form Validation -->
+<script type="text/javascript">
+  function validateForm() {
+     var x = document.forms.getElementID('Email').getElementID('Social security number').getElementID('Previous Education level').getElementID('Card type').value;
+     if (x == "") {
+        alert("Fill out this field");
+        return false;
+ }
+}
+</script>
     </footer>
 
     <!-- SCRIPTS -->

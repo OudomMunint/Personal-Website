@@ -917,7 +917,7 @@ a:focus {
 }
 
 @media only screen and (max-width: 768px) {
-  #home .col-md-6 {
+  #home-rightside {
     display: none;
   }
 }

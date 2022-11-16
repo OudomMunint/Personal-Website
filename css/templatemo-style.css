@@ -1,6 +1,6 @@
 /* orbit */
 .orbit {
-  background: #090c29;
+  background: linear-gradient(to left, #3494e6, #ec6ead);
   float: left;
   width: 100%;
   min-width: 100vw;
@@ -272,9 +272,9 @@ icons
   color: #ff8f00;
 }
 
-.fa-chrome {
-  background: #fbc02d;
-  color: #ef6c00;
+.devicon-react-original-wordmark {
+  background: #000000;
+
 }
 
 .fa-edge {
@@ -297,6 +297,11 @@ icons
   color: #222;
 }
 
+.fa-wordpress {
+  background-color: #000;
+  color: white;
+}
+
 .fa-windows {
   background: white;
   color: #03a9f4;
@@ -315,11 +320,6 @@ icons
 .fa-css3 {
   background: white;
   color: #2196f3;
-}
-
-.fa-git {
-  background: #222;
-  color: white;
 }
 
 .fa-free-code-camp {

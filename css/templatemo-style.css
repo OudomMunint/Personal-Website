@@ -1,7 +1,9 @@
 /* orbit */
 .orbit {
-  background: linear-gradient(to left, #3494e6, #ec6ead);
-  float: left;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	float: left;
   width: 100%;
   min-width: 100vw;
   min-height: 100vh;
@@ -1617,7 +1619,8 @@ footer {
       hsl(100 100% 60%)
     )
     fixed; */
-  background: linear-gradient(to left, #3494e6, #ec6ead);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 15s ease infinite;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5563,4 +5566,17 @@ mark {
     display: block;
     margin-top: 2.2rem;
   }
+}
+
+/* animated gradient */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

@@ -712,7 +712,7 @@ a:focus {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #ffffff;
+  background: none repeat scroll 0 0 linear-gradient(45deg, #0ecffe 50%, #07a6f1);
 }
 
 .spinner {

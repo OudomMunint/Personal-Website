@@ -836,7 +836,7 @@ a:focus {
 .h2 {
   font-weight: 700;
   width: 1000px;
-  font-size: 60px;
+  font-size: 53px;
   font-family: "Inter var", "Inter", sans-serif;
   line-height: 1.55;
   letter-spacing: -0.07em;
@@ -1630,6 +1630,11 @@ footer {
 @media only screen and (max-width: 600px) {
   .intro {
     font-size: 30px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .intro {
+    font-size: 3.1vw;
   }
 }
 /* Typing animation */
@@ -5581,3 +5586,9 @@ mark {
 		background-position: 0% 50%;
 	}
 }
+
+/* @-moz-document url-prefix(http://127.0.0.1:5500/Home.html) {
+  html {
+      display: none
+  }
+} */

@@ -5587,8 +5587,8 @@ mark {
 	}
 }
 
-@-moz-document url-prefix(http://127.0.0.1:5500/Home.html) {
+/*@-moz-document url-prefix(http://127.0.0.1:5500/Home.html) {
   html {
       display: none
   }
-}
+}*/

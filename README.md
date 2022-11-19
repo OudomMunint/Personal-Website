@@ -6,6 +6,6 @@
  <br>
  <br>
  <br>
- <img src="/images/Screenshot 2022-11-15 163650.png"/>
+ <img src="/images/gitHero.png"/>
     </h2>
    

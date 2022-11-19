@@ -1170,7 +1170,7 @@ article:hover {
   background-color: #15172b;
   border-radius: 20px;
   box-sizing: border-box;
-  height: 500px;
+  height: 550px;
   padding: 20px;
 }
 
@@ -1239,8 +1239,7 @@ article:hover {
 }
 
 .placeholder {
-  color: #65657b;
-  font-family: sans-serif;
+  color: grey;
   left: 20px;
   line-height: 14px;
   pointer-events: none;
@@ -1272,7 +1271,7 @@ article:hover {
   cursor: pointer;
   font-size: 18px;
   height: 50px;
-  margin-top: 38px;
+  margin-top: 20px;
   text-align: center;
   width: 100%;
   transition: 0.5s;

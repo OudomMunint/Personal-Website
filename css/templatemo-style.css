@@ -1167,7 +1167,7 @@ article:hover {
 }
 
 .form {
-  background-color: #15172b;
+  background-color: #ffffff;
   border-radius: 20px;
   box-sizing: border-box;
   height: 550px;
@@ -1175,16 +1175,14 @@ article:hover {
 }
 
 .title {
-  color: #eee;
-  font-family: sans-serif;
+  color: #08d;
   font-size: 36px;
   font-weight: 600;
   margin-top: 30px;
 }
 
 .subtitle {
-  color: #eee;
-  font-family: sans-serif;
+  color: #08d;
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
@@ -1205,11 +1203,11 @@ article:hover {
 }
 
 .input {
-  background-color: #303245;
+  background-color: #dddddd;
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
-  color: #eee;
+  color: rgb(83, 83, 83);
   font-size: 18px;
   height: 100%;
   outline: 0;
@@ -1218,7 +1216,7 @@ article:hover {
 }
 
 .cut {
-  background-color: #15172b;
+  background-color: #ffffff;
   border-radius: 10px;
   height: 20px;
   left: 20px;
@@ -1230,7 +1228,7 @@ article:hover {
 }
 
 .cut-short {
-  width: 50px;
+  width: 90px;
 }
 
 .input:focus ~ .cut,

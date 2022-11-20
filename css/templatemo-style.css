@@ -1277,17 +1277,9 @@ article:hover {
 
 .submit:hover {
   transition: 0.5s;
-  background-color: rgb(255, 255, 255);
-  border-radius: 12px;
-  border: 0;
-  box-sizing: border-box;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  font-size: 18px;
-  height: 50px;
-  margin-top: 38px;
-  text-align: center;
-  width: 100%;
+  background-color: grey;
+  color: white;
+  transform: scale(1.05);
 }
 
 .submit:active {

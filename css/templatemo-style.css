@@ -1157,6 +1157,45 @@ article:hover {
 
 /* Custom form styling start */
 
+/* macOS windows for form */
+.top-bar{
+  padding: 0rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 1rem;
+}
+.top-bar span{
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  border-radius:50%;
+  cursor:pointer;
+}
+.top-bar span:nth-child(1){
+  background-color: #F96058;
+  transition: 0.2s;
+}
+.top-bar span:nth-child(2){
+  background-color: #FEC009;
+  transition: 0.2s;
+}
+.top-bar span:nth-child(3){
+  background-color: #1DC937;
+  transition: 0.2s;
+}
+.top-bar span:nth-child(1):hover{
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+.top-bar span:nth-child(2):hover{
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+.top-bar span:nth-child(3):hover{
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
 .formFlex {
   display: flex;
   align-items: center;

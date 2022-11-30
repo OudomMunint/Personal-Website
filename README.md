@@ -10,5 +10,6 @@
  <img src="/images/gitHero.png"/>
  <h3>Mobile</h3>
  <img src="/images/gitHeroMobile.png"/>
+ <img src="/images/gitHeroMobile2.png"/>
     </h2>
    

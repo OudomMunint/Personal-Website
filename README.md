@@ -9,7 +9,7 @@
  <h3>Desktop</h3>
  <img src="/images/gitHero.png"/>
  <h3>Mobile</h3>
- <img src="/images/gitHeroMobile.png"/>
- <img src="/images/gitHeroMobile2.png"/>
+ <img style="display: inline" src="/images/gitHeroMobile.png"/>
+ <img style="display: inline" src="/images/gitHeroMobile2.png"/>
     </h2>
    

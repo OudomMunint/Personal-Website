@@ -9,7 +9,9 @@
  <h3>Desktop</h3>
  <img src="/images/gitHero.png"/>
  <h3>Mobile</h3>
+ <div style="display: Flex">
  <img style="display: inline" src="/images/gitHeroMobile.png"/>
  <img style="display: inline" src="/images/gitHeroMobile2.png"/>
+ </div>
     </h2>
    

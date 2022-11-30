@@ -11,7 +11,6 @@
  <h3>Mobile</h3>
  <div style="display: Flex">
  <img style="display: inline" src="/images/gitHeroMobile.png"/>
- <br><br><br><br><br><br><br>
  <img style="display: inline" src="/images/gitHeroMobile2.png"/>
  </div>
     </h2>

@@ -9,7 +9,7 @@ $mailheader = "From:".$firstname."<".$email.">\r\n";
 $recipient = "oudommunint@gmail.com";
 
 mail($recipient, $message, $mailheader)
-or die("Error!");
+or die("Error! your request could not be processed");
 
 echo"We will be in touch!";
 ?>

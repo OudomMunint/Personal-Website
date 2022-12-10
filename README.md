@@ -8,9 +8,9 @@
 </h3>
  <br>
  <br>
- <h3>Desktop view</h3>
+ <h2>Desktop view</h2>
  <img src="/images/gitHero.png"/>
- <h3>Mobile</h3>
+ <h2>Mobile view</h2>
  <div style="display: Flex">
  <img style="display: inline" src="/images/gitHeroMobile.png"/>
  <img style="display: inline" src="/images/gitHeroMobile2.png"/>

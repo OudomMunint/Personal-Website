@@ -1,8 +1,7 @@
- <h1>
-        My personal site/Portfolio
-    </h1>
-    <h2>
- <strong> Check it out at </strong> https://oudommunint.netlify.app/
+<h2 align="center">
+  My personal Site/Portfolio<br/>
+  <a href="https://oudommunint.netlify.app/" target="_blank">Studio Zed</a>
+</h2>
  <br>
  <br>
  <br>

@@ -1,10 +1,10 @@
 <h2 align="center">
   My personal Site/Portfolio<br/>
-  <a href="https://oudommunint.netlify.app/" target="_blank">Studio Zed</a>
+  <a href="https://oudommunint.netlify.app/" target="_blank">Check it out!</a>
 </h2>
  <h3 align="center">
     🔹
-    <a href="https://github.com/OudomMunint/StudioZed-ReactJS/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/OudomMunint/Personal-Site-from-desktop/issues">Report Bug</a> &nbsp; &nbsp;
 </h3>
  <br>
  <br>

@@ -999,9 +999,9 @@ a:focus {
 }
 
 .gridPrj .text {
-  padding: 10px 20px 20px 30px;
+  padding: 10px 20px 20px 0px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .gridPrj .btn {

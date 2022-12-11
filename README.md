@@ -15,5 +15,5 @@
  <img style="display: inline" src="/images/gitHeroMobile.png"/>
  <img style="display: inline" src="/images/gitHeroMobile2.png"/>
  </div>
-    </h2>
+ </h2>
    

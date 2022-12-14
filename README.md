@@ -16,4 +16,11 @@
  <img style="display: inline" src="/images/gitHeroMobile2.png"/>
  </div>
  </h2>
-   
+ ## Built With
+This project was built using these technologies.
+
+- HTML
+- Bootstrap
+- JavaScript + Scroll Magic + GSAp + Scroll Trigger
+- SCSS
+- PHP

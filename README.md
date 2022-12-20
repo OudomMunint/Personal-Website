@@ -7,6 +7,14 @@
     <a href="https://github.com/OudomMunint/Personal-Site-from-desktop/issues">Report Bug</a> &nbsp; &nbsp;
 </h3>
  <br>
+ <h2>Built With</h2>
+This project was built using these technologies.
+
+- HTML
+- Bootstrap
+- JavaScript + Scroll Magic + GSAp + Scroll Trigger
+- SCSS
+- PHP
  <br>
  <h2>Desktop view</h2>
  <img src="/images/gitHero.png"/>
@@ -16,4 +24,3 @@
  <img style="display: inline" src="/images/gitHeroMobile2.png"/>
  </div>
  </h2>
-   

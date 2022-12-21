@@ -10,11 +10,11 @@
  <h2>Built With</h2>
 This project was built using these technologies.
 
-- HTML
-- Bootstrap
-- JavaScript + Scroll Magic + GSAp + Scroll Trigger
-- SCSS
-- PHP
+- `HTML`
+- `Bootstrap`
+- `JavaScript` + `Scroll Magic` + `GSAP` + `Scroll Trigger`
+- `SCSS` & `CSS`
+- `PHP`
  <br>
  <h2>Desktop view</h2>
  <img src="/images/gitHero.png"/>

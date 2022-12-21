@@ -7,7 +7,7 @@
     <a href="https://github.com/OudomMunint/Personal-Site-from-desktop/issues">Report Bug</a> &nbsp; &nbsp;
 </h3>
  <br>
- <h2>Developed with technologies such as</h2>
+ <h2>Tools Used</h2>
 This project was built using these technologies.
 
 - `HTML`

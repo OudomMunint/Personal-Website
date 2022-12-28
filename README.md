@@ -10,9 +10,6 @@
 ## Deploy Status:
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0260a7f6-2b1b-4b6f-8e7e-69995eb35ce5/deploy-status)](https://app.netlify.com/sites/oudommunint/deploys)
-
- <br>
- 
  <h2>Tools Used</h2>
 This project was built using these technologies.
 

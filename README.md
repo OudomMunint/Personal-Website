@@ -25,7 +25,7 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
  </br>
- and libraries such as `Scroll Magic`, `GSAP`, `Scroll Trigger`, `AOS.Js`
+ and libraries such as `Scroll Magic`, `GSAP`, `Scroll Trigger`, `AOS.Js` and `WoW.Js`
  </br>
  <h2>Desktop view</h2>
  <img src="/images/gitHero.png"/>

@@ -26,15 +26,6 @@
     text-align: center;
     padding: 10px 10px 20px 10px;
     background-color: #0D1117;
-    /* width: 50%; */
-    /* right: 50%; */
-    position: relative;
-    /* margin: 20px; */
-    margin-bottom: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 27px;
-    box-shadow: 10px 10px 15px;
   }
 
    @media only screen and (max-width: 900px) {

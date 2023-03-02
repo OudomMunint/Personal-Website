@@ -28,7 +28,7 @@
  and libraries such as `Scroll Magic`, `GSAP`, `Scroll Trigger`, `AOS.Js` and `WoW.Js`
  </br>
  <h2>Desktop view</h2>
- <img src="/images/gitHero.png"/>
+ <img src="/images/homeSS.png"/>
  <h2>Mobile view</h2>
  <div style="display: Flex">
  <img style="display: inline" src="/images/gitHeroMobile.png"/>

@@ -797,7 +797,7 @@ a:hover {
   padding-bottom: 18px;
 }
 #home .col-md-6 {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   padding-right: 0;
   padding-left: 0;
 }

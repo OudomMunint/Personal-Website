@@ -4950,9 +4950,9 @@ a.pds {
 }
 
 .GhcContainer {
-  background-color: white;
+  /* background-color: white; */
   padding: 20px;
   text-align: left;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px black;
+  /* box-shadow: 5px 5px 5px black; */
 }

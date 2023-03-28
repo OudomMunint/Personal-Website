@@ -46,4 +46,3 @@ const scene2 = new ScrollMagic.Scene({
   .setTween(textAnim)
   .addTo(controller);
 //Need to stop both animations from playing at the same time
-

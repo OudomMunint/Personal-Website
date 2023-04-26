@@ -20,3 +20,19 @@ CREATE TABLE Users (
   last_name VARCHAR(255) NOT NULL,
   created_at DATETIME NOT NULL
 );
+
+CREATE TABLE Skills (
+  skill_id INT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL,
+  created_at DATETIME NOT NULL
+);
+
+CREATE TABLE User_Skills (
+  user_skill_id INT PRIMARY KEY,
+  user_id INT NOT NULL,
+  skill_id INT NOT NULL,
+  proficiency INT NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id),
+  FOREIGN KEY (skill_id) REFERENCES Skills(skill_id)
+);

@@ -362,8 +362,8 @@ html {
   display: none;
 }
 html {
-  scroll-behavior: smooth;
-  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 *,
 .cd-main-header h1,

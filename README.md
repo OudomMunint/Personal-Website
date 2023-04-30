@@ -4,13 +4,12 @@
 </h2>
  <h3 align="center">
     🔹
-    <a href="https://github.com/OudomMunint/Personal-Site-from-desktop/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/OudomMunint/Personal-Site-from-desktop/issues">Report Bug</a> &nbsp; &nbsp; <br> <br>
+  
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 </h3>
 
 ## CI / CD Status:
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0260a7f6-2b1b-4b6f-8e7e-69995eb35ce5/deploy-status)](https://app.netlify.com/sites/oudommunint/deploys)
  <h2>Tech Stack</h2>
   This project was built using these technologies.</br></br>

@@ -29,7 +29,7 @@
  <h2>Desktop view</h2>
  <img src="/images/readme hero.png"/>
  <h2>Mobile view</h2>
- <div style="display: Flex">
+ <div style="display: Flex;">
  <img style="display: inline" src="/images/gitHeroMobile.png"/>
  <img style="display: inline" src="/images/gitHeroMobile2.png"/>
  </div>

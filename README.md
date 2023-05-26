@@ -10,7 +10,7 @@
 </h3>
 
 ## CI / CD Status:
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0260a7f6-2b1b-4b6f-8e7e-69995eb35ce5/deploy-status)](https://app.netlify.com/sites/oudommunint/deploys) [![CodeQL](https://github.com/OudomMunint/Personal-Website/actions/workflows/codeql.yml/badge.svg)](https://github.com/OudomMunint/Personal-Website/actions/workflows/codeql.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0260a7f6-2b1b-4b6f-8e7e-69995eb35ce5/deploy-status)](https://app.netlify.com/sites/oudommunint/deploys) [![CodeQL](https://github.com/OudomMunint/Personal-Website/actions/workflows/codeql.yml/badge.svg)](https://github.com/OudomMunint/Personal-Website/actions/workflows/codeql.yml) [![CI + Release](https://github.com/OudomMunint/Personal-Website/actions/workflows/main.yml/badge.svg)](https://github.com/OudomMunint/Personal-Website/actions/workflows/main.yml)
  <h2>Tech Stack</h2>
   This project was built using these technologies.</br></br>
   

@@ -2,8 +2,6 @@ name: CI + Release
 
 on:
   push:
-    tags:
-      - '*'
     branches:
       - master
 
@@ -17,13 +15,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18.x
-      - name: Install dependencies
-        run: npm install
-        
-      - name: Generate build
-        env:
-          CI: false
-        run: npm run build
 
       # Share artifact inside workflow
       - name: Share artifact inside workflow
@@ -35,5 +26,4 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: "github-actions-build"
           tag: v1.1.0

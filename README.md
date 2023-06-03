@@ -7,6 +7,8 @@
     <a href="https://github.com/OudomMunint/Personal-Site-from-desktop/issues">Report Bug</a> &nbsp; &nbsp; <br> <br>
   
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+  
+  ![maintenance-status](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)
 </h3>
 
 ## CI / CD Status:

@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - master
-
+    paths:
+      - '**/*.gitignore'
+      - '**/*.gitattributes'
+      - '**/*.md'
 jobs:
   build:
     runs-on: ubuntu-latest

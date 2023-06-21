@@ -9,7 +9,7 @@ on:
       - '**/*.gitattributes'
       - '**/*.md'
 jobs:
-  build:
+  Build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PROD
@@ -29,4 +29,4 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          tag: v1.2.1
+          tag: v1.2.2

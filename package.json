@@ -1,0 +1,11 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "<h2 align=\"center\">\r   My personal Site/Portfolio<br/>\r   <a href=\"https://oudommunint.netlify.app/\" target=\"_blank\">Check it out here!</a>\r </h2>\r  <h3 align=\"center\">\r     🔹\r     <a href=\"https://github.com/OudomMunint/Personal-Site-from-desktop/issues\">Report Bug</a> &nbsp; &nbsp; <br> <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

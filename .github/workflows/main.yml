@@ -9,7 +9,7 @@ on:
       - '**/*.gitattributes'
       - '**/*.md'
 jobs:
-  Build:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PROD

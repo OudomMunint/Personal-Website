@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - master
+
 jobs:
-  build:
+  Build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PROD
         uses: actions/checkout@v2
+
       - name: Use Node.js 18.x
         uses: actions/setup-node@v2
         with:
@@ -22,7 +24,16 @@ jobs:
           name: github-actions-build
           path: build
 
+      - name: Install NPM
+        run: npm install
+
+      - name: Use latest
+        run: npm update
+
+      - name: Restore dependencies
+        run: npm ci
+
       - name: Create Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          tag: v1.4.0
+          tag: v1.4.1

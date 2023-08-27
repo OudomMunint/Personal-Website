@@ -870,6 +870,27 @@
         <div data-netlify-recaptcha="true" style="padding-top: 20px;"></div>
       </div>
     </form>
+    <!-- // disable form submission until recaptcha is done -->
+    <script>
+      function enableSubmitButton() {
+        document.getElementById('submit-button').removeAttribute('disabled');
+      }
+    
+      document.getElementById('submit-button').setAttribute('disabled', 'disabled');
+    
+      document.addEventListener('DOMContentLoaded', function () {
+        const recaptchaElement = document.querySelector('[data-netlify-recaptcha="true"]');
+        
+        if (recaptchaElement) {
+          recaptchaElement.addEventListener('change', function (event) {
+            if (event.target.checked) {
+              enableSubmitButton();
+            }
+          });
+        }
+      });
+    </script>
+    
     </div>
       <div class="col-md-12 col-sm-12">
         <h2><strong><br>

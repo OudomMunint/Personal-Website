@@ -4956,3 +4956,7 @@ a.pds {
   border-radius: 20px;
   /* box-shadow: 5px 5px 5px black; */
 }
+
+.submitDisabled {
+  background-color: #c9d1d9;
+}

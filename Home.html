@@ -865,22 +865,12 @@
           <label for="email" class="placeholder">Message</label>
         </div>
         <!-- <button type="text" class="submit">Submit</button> -->
-        <button type="Submit" class="submit" value="Send"> Submit </button>
+        <button type="Submit" class="submit" id="submitButton" value="Send"> Submit </button>
         <button type="reset" class="submit"> Clear </button>
         <div data-netlify-recaptcha="true" style="padding-top: 20px;"></div>
       </div>
     </form>
     </div>
-    <!-- disable submit button until recaptcha is checked -->
-    <script>
-      var submitButton = document.getElementById("submit-button");
-      submitButton.disabled = true;
-    </script>
-    <script>
-      function enableBtn() {
-        document.getElementById("submit-button").disabled = false;
-      }
-    </script>
       <div class="col-md-12 col-sm-12">
         <h2><strong><br>
           +61 478 753 033<br>

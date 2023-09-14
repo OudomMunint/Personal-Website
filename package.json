@@ -12,7 +12,8 @@
   "dependencies": {
     "-": "^0.0.1",
     "gsap": "^3.12.1",
-    "sass": "^1.63.6"
+    "sass": "^1.63.6",
+    "web-vitals": "^3.4.0"
   },
   "devDependencies": {
     "chokidar": "^3.5.3",

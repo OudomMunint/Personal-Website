@@ -33,7 +33,7 @@ p {
 .mask span {
   -webkit-text-fill-color: transparent;
 }
-#return-to-top,
+.return-to-top,
 .body,
 .gridPrj .btn,
 .social-icon li a {
@@ -421,7 +421,7 @@ p {
   line-height: 25px;
   letter-spacing: 0.2px;
 }
-#return-to-top {
+.return-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -439,7 +439,7 @@ p {
   transition: 0.3s;
   z-index: 2;
 }
-#return-to-top i {
+.return-to-top i {
   color: #fff;
   margin: 0;
   position: relative;
@@ -457,10 +457,10 @@ p {
   transition: 0.3s;
   top: 0;
 }
-#return-to-top:hover {
+.return-to-top:hover {
   background: rgba(0, 0, 0, 0.9);
 }
-#return-to-top:hover i {
+.return-to-top:hover i {
   color: #fff;
   top: 5px;
 }

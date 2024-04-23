@@ -10,16 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PROD
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Use Node.js 18.x
-        uses: actions/setup-node@v2
+      - name: Use Node.js latest
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: latest
 
       # Share artifact inside workflow
-      - name: Share artifact inside workflow
-        uses: actions/upload-artifact@v2
+      - name: Share artifacts
+        uses: actions/upload-artifact@v4
         with:
           name: github-actions-build
           path: build
@@ -34,6 +34,6 @@ jobs:
         run: npm ci
 
       - name: Create Release
-        uses: ncipollo/release-action@v1.12.0
+        uses: ncipollo/release-action@v1.14.0
         with:
-          tag: v1.5.6.2
+          tag: v1.5.6.3

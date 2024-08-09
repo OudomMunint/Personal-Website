@@ -4944,6 +4944,7 @@ a.pds {
   text-align: center;
   padding: 10px 10px 20px 10px;
   background-color: #0d1117;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -4962,4 +4963,10 @@ a.pds {
 
 .submitDisabled {
   background-color: #c9d1d9;
+}
+
+.GHRMS {
+  text-align: center;
+  display: inline-flex;
+  padding: 10px;
 }

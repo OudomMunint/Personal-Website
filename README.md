@@ -1,5 +1,5 @@
 <h2 align="center">
-  My personal Site/Portfolio<br/>
+  My personal Site/Portfolio template. Feel free to use it. Apologies in advance for the shit code<br/>
   <a href="https://oudommunint.netlify.app/" target="_blank">Check it out here!</a>
 </h2>
  <h3 align="center">

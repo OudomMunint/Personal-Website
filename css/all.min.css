@@ -1,3 +1,6 @@
+html {
+  scrollbar-width: thin !important;
+}
 .orbit-wrap > li,
 ul[class^="ring"] li {
   top: 50%;

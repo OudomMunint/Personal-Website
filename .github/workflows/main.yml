@@ -12,20 +12,10 @@ jobs:
       - name: Checkout PROD
         uses: actions/checkout@v4
 
-      - name: Use Node.js latest
+      - name: Use Node.js 21.7.3
         uses: actions/setup-node@v4
         with:
           node-version: 21.7.3
-
-      # Share artifact inside workflow
-      - name: Share artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-actions-build
-          path: build
-
-      - name: Install NPM
-        run: npm install
 
       - name: Use latest
         run: npm update
@@ -36,4 +26,4 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1.14.0
         with:
-          tag: v1.5.6.6
+          tag: v1.5.6.7
